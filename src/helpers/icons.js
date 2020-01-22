@@ -3,14 +3,17 @@ import {
     faSignOutAlt, 
     faEdit, 
     faCircleNotch, 
-    faPlusCircle 
+    faPlusCircle,
+    faPhone,
+    faEnvelope,
+    faMapMarkedAlt,
+    faLock
     } from "@fortawesome/free-solid-svg-icons";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-
 const Icons = () => {
-    return library.add(faTrash, faSignOutAlt, faEdit, faCircleNotch, faPlusCircle)
+    return library.add(faTrash, faSignOutAlt, faEdit, faCircleNotch, faPlusCircle, faPhone, faEnvelope, faMapMarkedAlt, faLock)
 };
 
 export default Icons;
